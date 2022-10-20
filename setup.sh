@@ -6,6 +6,7 @@ wget https://iirc-dataset.s3.us-west-2.amazonaws.com/iirc_test.json -P data
 
 cd data
 tar -xf context_articles.tar.gz
+tar -xf iirc_train_dev.tgz
 
 cd ..
 
