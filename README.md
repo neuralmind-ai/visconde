@@ -24,8 +24,9 @@ Download datasets
 ### QASPER
 
  1. [Rerank paragraphs by question](https://anonymous.4open.science/r/visconde-4592/qasper_rerank.ipynb)
- 2. [Testing](https://anonymous.4open.science/r/visconde-4592/qasper_generate.ipynb)
- 3. Compute metrics
+ 2. [Generate explanations for training examples](https://anonymous.4open.science/r/visconde-4592/qasper_generate_explanations.ipynb)
+ 3. [Testing](https://anonymous.4open.science/r/visconde-4592/qasper_generate.ipynb)
+ 4. Compute metrics
 	For computing metrics download run:
 	
   ```python qasper_evaluator.py --predictions PREDICTIONS_FILE --gold data/qasper-test-v0.3.json --text_evidence_only```
