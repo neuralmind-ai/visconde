@@ -14,7 +14,7 @@ Download datasets
 
 ### IIRC
 
- 1. [Decompose test questions](https://anonymous.4open.science/r/visconde-4592/iirc_generate_explanations.ipynb)
+ 1. [Decompose test questions](iirc_generate_explanations.ipynb)
  2. [Create Indices](https://anonymous.4open.science/r/visconde-4592/iirc_create_indices.ipynb)
  3. [Create list for reranking](https://anonymous.4open.science/r/visconde-4592/iirc_prepare_to_rerank.ipynb)
  4. [Rerank items (GPU required)](https://anonymous.4open.science/r/visconde-4592/iirc_rerank.ipynb)
