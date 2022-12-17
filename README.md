@@ -15,17 +15,17 @@ Download datasets
 ### IIRC
 
  1. [Decompose test questions](iirc_generate_explanations.ipynb)
- 2. [Create Indices](https://anonymous.4open.science/r/visconde-4592/iirc_create_indices.ipynb)
- 3. [Create list for reranking](https://anonymous.4open.science/r/visconde-4592/iirc_prepare_to_rerank.ipynb)
- 4. [Rerank items (GPU required)](https://anonymous.4open.science/r/visconde-4592/iirc_rerank.ipynb)
- 5. [Generate explanation for training examples](https://anonymous.4open.science/r/visconde-4592/iirc_generate_explanations.ipynb)
- 6. [Testing](https://anonymous.4open.science/r/visconde-4592/iirc_generate_and_evaluate.ipynb)
+ 2. [Create Indices](iirc_create_indices.ipynb)
+ 3. [Create list for reranking](iirc_prepare_to_rerank.ipynb)
+ 4. [Rerank items (GPU required)](iirc_rerank.ipynb)
+ 5. [Generate explanation for training examples](iirc_generate_explanations.ipynb)
+ 6. [Testing](iirc_generate_and_evaluate.ipynb)
 
 ### QASPER
 
- 1. [Rerank paragraphs by question](https://anonymous.4open.science/r/visconde-4592/qasper_rerank.ipynb)
- 2. [Generate explanations for training examples](https://anonymous.4open.science/r/visconde-4592/qasper_generate_explanations.ipynb)
- 3. [Testing](https://anonymous.4open.science/r/visconde-4592/qasper_generate.ipynb)
+ 1. [Rerank paragraphs by question](qasper_rerank.ipynb)
+ 2. [Generate explanations for training examples](qasper_generate_explanations.ipynb)
+ 3. [Testing](qasper_generate.ipynb)
  4. Compute metrics
 	For computing metrics download run:
 	
@@ -33,11 +33,11 @@ Download datasets
 
 ### StrategyQA
 
- 1. [Create indices](https://anonymous.4open.science/r/visconde-4592/strategyqa_create_indices.py)
- 2. [Decompose questions](https://anonymous.4open.science/r/visconde-4592/strategyqa_decompose_query.ipynb)
- 3. [Create lists for reranking](https://anonymous.4open.science/r/visconde-4592/strategyqa_create_rerankable.py)
- 4. [Rerank items (GPU required)](https://anonymous.4open.science/r/visconde-4592/strategyqa_rerank.ipynb)
- 5. [Testing](https://anonymous.4open.science/r/visconde-4592/strategyqa_generate.ipynb)
+ 1. [Create indices](strategyqa_create_indices.py)
+ 2. [Decompose questions](strategyqa_decompose_query.ipynb)
+ 3. [Create lists for reranking](strategyqa_create_rerankable.py)
+ 4. [Rerank items (GPU required)](strategyqa_rerank.ipynb)
+ 5. [Testing](strategyqa_generate.ipynb)
  6. Compute metrics
 	 For computing metrics clone [this repository](https://github.com/allenai/strategyqa-evaluator.git) and run the evaluator.
 
