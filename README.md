@@ -1,11 +1,24 @@
 
 # Visconde: Multi-document QA with GPT-3 and Neural Reranking
 
-In this repository we maintain the code used in the paper Visconde: Multi-document QA with GPT-3 and Neural Reranking, submited to European Conference on Information Retrieval ECIR2023.
+In this repository, we maintain the code used in the paper [Visconde: Multi-document QA with GPT-3 and Neural Reranking](https://arxiv.org/abs/2212.09656), accepted for publication at the European Conference on Information Retrieval [ECIR2023](https://ecir2023.org/).
 
 > **Abstract:** This paper discusses a question-answering system that can answer questions whose supporting evidence is spread over multiple (potentially long) documents. The system, called Visconde, uses a three-step pipeline to perform the task: decompose, retrieve, and aggregate. The first step decomposes the question into simpler questions using a few-shot large language model (LLM). Then, a state-of-the-art search engine is used to retrieve candidate passages from a large collection for each decomposed question. In the final step, we use the LLM in a few-shot setting to aggregate the contents of the passages into the final answer. The system is evaluated on three datasets: IIRC, Qasper, and StrategyQA. Results suggest that current retrievers are the main bottleneck and that readers are already performing at the human level as long as relevant passages are provided. The system is also shown to be more effective when the model is induced to give explanations before.
 
 We evaluated our proposal on three datasets: [IIRC](https://allenai.org/data/iirc), [QASPER](https://allenai.org/data/qasper) and [StrategyQA](https://allenai.org/data/strategyqa).
+
+### How to Cite
+```
+@misc{pereira2022visconde,
+  doi = {10.48550/ARXIV.2212.09656},
+  url = {https://arxiv.org/abs/2212.09656},
+  author = {Pereira, Jayr and Fidalgo, Robson and Lotufo, Roberto and Nogueira, Rodrigo},
+  title = {Visconde: Multi-document QA with GPT-3 and Neural Reranking},
+  publisher = {arXiv},
+  year = {2022}
+}
+```
+
 
 ## Reproducing
 Download datasets
