@@ -7,18 +7,6 @@ In this repository, we maintain the code used in the paper [Visconde: Multi-docu
 
 We evaluated our proposal on three datasets: [IIRC](https://allenai.org/data/iirc), [QASPER](https://allenai.org/data/qasper) and [StrategyQA](https://allenai.org/data/strategyqa).
 
-### How to Cite
-```
-@misc{pereira2022visconde,
-  doi = {10.48550/ARXIV.2212.09656},
-  url = {https://arxiv.org/abs/2212.09656},
-  author = {Pereira, Jayr and Fidalgo, Robson and Lotufo, Roberto and Nogueira, Rodrigo},
-  title = {Visconde: Multi-document QA with GPT-3 and Neural Reranking},
-  publisher = {arXiv},
-  year = {2022}
-}
-```
-
 
 ## Reproducing
 Download datasets
@@ -54,3 +42,20 @@ Download datasets
  6. Compute metrics
 	 For computing metrics clone [this repository](https://github.com/allenai/strategyqa-evaluator.git) and run the evaluator.
 
+### How to Cite
+```
+@inproceedings{10.1007/978-3-031-28238-6_44,
+author = {Pereira, Jayr and Fidalgo, Robson and Lotufo, Roberto and Nogueira, Rodrigo},
+title = {Visconde: Multi-Document QA With&nbsp;GPT-3 And&nbsp;Neural Reranking},
+year = {2023},
+isbn = {978-3-031-28237-9},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+url = {https://doi.org/10.1007/978-3-031-28238-6_44},
+doi = {10.1007/978-3-031-28238-6_44},
+booktitle = {Advances in Information Retrieval: 45th European Conference on Information Retrieval, ECIR 2023, Dublin, Ireland, April 2–6, 2023, Proceedings, Part II},
+pages = {534–543},
+numpages = {10},
+location = {Dublin, Ireland}
+}
+```
